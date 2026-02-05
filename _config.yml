@@ -26,7 +26,7 @@ author:
   avatar           : "bio_main.png"
   name             : "Honghao (Jack) Yang"
   pronouns         : "He/Him/His"
-  bio              : "An undergraduate student at Washington University in St. Louis, majoring in Computer Science with a minor in Statistics. Passionate about Computer System and Networks, and keen on exploring the intersection of technology and society."
+  bio              : # "An undergraduate student at Washington University in St. Louis, majoring in Computer Science with a minor in Statistics. Passionate about Computer System and Networks, and keen on exploring the intersection of technology and society."
   location         : "St Louis, MO, USA"
   school           : "Washington University in St. Louis"
   uri              : # URL
@@ -231,6 +231,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  experience:
+    output: true
+    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -283,6 +286,15 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  # _experience
+  - scope:
+      path: ""
+      type: experience
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _talks
   - scope:
       path: ""
