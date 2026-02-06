@@ -17,17 +17,20 @@ main:
   - title: "Experience"
     url: /experience/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  # - title: "Teaching"
+  #   url: /teaching/    
     
   - title: "Portfolio"
     url: /portfolio/
         
   # - title: "Blog Posts"
   #   url: /year-archive/
+
+  - title: "Life"
+    url: /life/
     
-  - title: "CV"
-    url: /cv/
+  # - title: "CV"
+  #   url: /cv/
     
   # - title: "CV"
   #   url: /cv-json/

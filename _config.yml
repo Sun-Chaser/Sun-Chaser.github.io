@@ -231,6 +231,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  life:
+    output: true
+    permalink: /:collection/:path/
   experience:
     output: true
     permalink: /:collection/:path/
@@ -286,6 +289,15 @@ defaults:
       author_profile: true
       share: true
       comment: true
+  # _life
+  - scope:
+      path: ""
+      type: life
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: false
   # _experience
   - scope:
       path: ""

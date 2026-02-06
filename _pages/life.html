@@ -1,0 +1,20 @@
+---
+layout: gallery
+title: "Life"
+permalink: /life/
+author_profile: true
+---
+
+{% include base_path %}
+
+This section will be a brief overview of my person life and interests outside of work and research. I will share some of my hobbies, passions, and experiences that have shaped who I am as a person. I believe that having a well-rounded life is important for personal growth and happiness, and I hope to inspire others to pursue their own interests and passions as well. Whether it's traveling, cooking, or spending time with loved ones, I believe that life is meant to be enjoyed and cherished. So stay tuned for some fun and interesting stories about my life!
+
+{% assign albums = site.life | group_by: "album" %}
+{% for album in albums %}
+  <h2 class="gallery-section-title">{{ album.name }}</h2>
+  <div class="gallery-grid">
+    {% for post in album.items reversed %}
+      {% include gallery-item.html %}
+    {% endfor %}
+  </div>
+{% endfor %}
