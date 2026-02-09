@@ -35,7 +35,7 @@
 }
 
 .experience-item__body {
-  background: #ffffff;
+  background: var(--global-bg-color);
   border: 1px solid var(--global-border-color);
   border-radius: 0.9rem;
   padding: 0.85rem 1rem;
@@ -51,6 +51,7 @@
 .experience-item__role {
   margin: 0;
   font-size: 1.05rem;
+  color: var(--global-text-color);
 
   a {
     color: inherit;
@@ -59,7 +60,7 @@
 }
 
 .experience-item__company {
-  color: #4b5563;
+  color: var(--global-text-color-light);
   font-weight: 600;
 }
 
@@ -68,7 +69,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem 1rem;
-  color: #6b7280;
+  color: var(--global-text-color-light);
   font-size: 0.9rem;
 
   i {
@@ -82,10 +83,10 @@
 
 .experience-item__present {
   font-weight: 600;
-  color: #111827;
+  color: var(--global-text-color);
 }
 
 .experience-item__summary {
   margin: 0.7rem 0 0;
-  color: #1f2933;
+  color: var(--global-text-color);
 }

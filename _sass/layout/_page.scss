@@ -107,7 +107,7 @@
   }
 
   .skill-bar {
-    background: #ffffff;
+    background: var(--global-bg-color);
     border: 1px solid var(--global-border-color);
     border-radius: 0.6rem;
     padding: 0.8rem 0.9rem 0.85rem;
@@ -123,12 +123,12 @@
 
   .skill-bar__value {
     font-size: 0.9rem;
-    color: #4b5563;
+    color: var(--global-text-color-light);
   }
 
   .skill-bar__track {
     height: 10px;
-    background: #eef1f4;
+    background: var(--global-border-color);
     border-radius: 999px;
     overflow: hidden;
   }
@@ -141,11 +141,11 @@
   .skill-bar__comment {
     margin: 0.5rem 0 0;
     font-size: 0.9rem;
-    color: #374151;
+    color: var(--global-text-color);
   }
 
   .education-entry {
-    background: #ffffff;
+    background: var(--global-bg-color);
     border: 1px solid var(--global-border-color);
     border-radius: 0.8rem;
     padding: 0.9rem 1.1rem;
@@ -156,15 +156,16 @@
   .education-entry h3 {
     margin: 0 0 0.35rem;
     font-size: 1.05rem;
+    color: var(--global-text-color);
   }
 
   .education-entry p {
     margin: 0.2rem 0;
-    color: #2f3b45;
+    color: var(--global-text-color);
   }
 
   .education-entry p strong {
-    color: #111827;
+    color: var(--global-text-color);
   }
 
   .source-code-link {
@@ -173,15 +174,15 @@
     gap: 0.35rem;
     padding: 0.15rem 0.55rem;
     border-radius: 999px;
-    background: #eef6ff;
-    border: 1px solid #cfe3ff;
-    color: #1d4ed8;
+    background: color-mix(in srgb, var(--global-link-color) 12%, var(--global-bg-color));
+    border: 1px solid color-mix(in srgb, var(--global-link-color) 30%, var(--global-border-color));
+    color: var(--global-link-color);
     font-weight: 600;
     text-decoration: none;
   }
 
   .source-code-link:hover {
-    background: #e0edff;
+    background: color-mix(in srgb, var(--global-link-color) 18%, var(--global-bg-color));
     text-decoration: none;
   }
 
@@ -196,7 +197,7 @@
   .interest-list__item {
     position: relative;
     padding: 0.7rem 0.9rem 0.7rem 2.1rem;
-    background: #ffffff;
+    background: var(--global-bg-color);
     border: 1px solid var(--global-border-color);
     border-radius: 0.75rem;
     box-shadow: 0 6px 16px rgba(20, 20, 20, 0.06);
@@ -207,7 +208,7 @@
     position: absolute;
     left: 0.8rem;
     top: 0.7rem;
-    color: #0ea5e9;
+    color: var(--global-link-color);
     font-size: 0.9rem;
   }
 

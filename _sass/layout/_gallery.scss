@@ -11,7 +11,7 @@
 .gallery-section-title {
   font-size: 1.1rem;
   margin: 1.6rem 0 0.4rem;
-  color: #1f2933;
+  color: var(--global-text-color);
 }
 
 .gallery-card {
@@ -47,9 +47,10 @@
 .gallery-card__title {
   font-size: 0.88rem;
   margin: 0 0 0.25rem;
+  color: var(--global-text-color-light);
 
   a {
-    color: inherit;
+    color: var(--global-text-color-light);
     text-decoration: none;
   }
 }
