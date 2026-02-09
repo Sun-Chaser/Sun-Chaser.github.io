@@ -167,6 +167,24 @@
     color: #111827;
   }
 
+  .source-code-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
+    background: #eef6ff;
+    border: 1px solid #cfe3ff;
+    color: #1d4ed8;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .source-code-link:hover {
+    background: #e0edff;
+    text-decoration: none;
+  }
+
   .interest-list {
     list-style: none;
     margin: 0.75rem 0 1.5rem;

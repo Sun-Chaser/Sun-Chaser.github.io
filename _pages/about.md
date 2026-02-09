@@ -16,7 +16,7 @@ I’m interested in **high-performance computing (HPC)** and **GPU programming**
 - **Fixing correctness issues**
 - **Making code faster** without turning it into a mess
 
-On this site, I share **projects**, **notes**, and **experiments** as I learn more about **parallel systems** and **performance engineering**. Also, I'd love to keep it as an archive of my **past life** and **experience**. 
+On this site, I share **projects**, **notes**, and **experiments** as I learn more about **parallel systems** and **performance engineering**. Also, I'd love to keep it as an archive of my **past life** and **experience**. Feel free to explore differnt sections!
 
 Education Experience
 ===
@@ -146,5 +146,5 @@ Interesting Facts:
 <ul class="interest-list">
   <li class="interest-list__item">I only celebrate birthday on Lunar Calendar so it's hard to remember my birthday which differs every year.</li>
   <li class="interest-list__item">I can't cook before coming to U.S.A. But now I can cook really well.</li>
-  <li class="interest-list__item">I like role-playing game and watched <em>Wichter III Concert</em>. Yayyyyyyy</li>
+  <li class="interest-list__item">I like role-playing game and watched <em>Wichter III Concert</em>. Yayyyyyyy!!!</li>
 </ul>

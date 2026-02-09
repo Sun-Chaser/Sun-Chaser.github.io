@@ -16,3 +16,12 @@ Highlights:
 - Analyzed latency distributions to characterize variability and tail behavior.
 - Identified and resolved performance bottlenecks in parallel/concurrent code paths.
 - Rebuilding the localization stage in CUDA for the new GPU architecture of ADAPT (current project).
+
+
+<h3>2025 McKelvey Summer Research Programs Poster Palooza</h3>
+<iframe src="/files/Poster_Final.pdf" width="100%" height="600px" style="border: none;"></iframe>
+
+<h3>2025 Summer REU Fianl Showcase Presentation</h3>
+<iframe src="/files/reu_presentation.pdf" width="100%" height="600px" style="border: none;"></iframe>
+
+<h3>See more on <a href="/publications/"> Publication </a> pages</h3>
