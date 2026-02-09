@@ -4,6 +4,7 @@ collection: experience
 permalink: /experience/2025-01-01-undergraduate-research-assistant-sbs
 excerpt: "Benchmarked and optimized streaming pipeline performance; rebuilding localization stage in CUDA for ADAPT."
 date: 2025-01-01
+end_date: present
 venue: "Stream Based Supercomputing Lab (Part-time)"
 location: "St Louis, Missouri, United States (On-site)"
 ---

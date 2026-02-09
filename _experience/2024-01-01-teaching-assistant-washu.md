@@ -4,6 +4,7 @@ collection: experience
 permalink: /experience/2024-01-01-teaching-assistant-washu
 excerpt: "Teaching assistant across multiple CSE courses; supported students with labs, assignments, and exam prep."
 date: 2024-01-01
+end_date: present
 venue: "Washington University in St. Louis"
 location: "St Louis, Missouri, United States"
 ---

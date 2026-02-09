@@ -4,6 +4,7 @@ collection: experience
 permalink: /experience/2025-01-01-stats-help-room-helper
 excerpt: "Provided drop-in support for statistics and data science students across core topics and workflows."
 date: 2025-01-01
+end_date: 2025-12-01
 venue: "Washington University in St. Louis"
 location: "St Louis, Missouri, United States"
 ---

@@ -1,0 +1,91 @@
+.experience-page {
+  .experience-list {
+    position: relative;
+    margin-top: 1.2rem;
+    padding-left: 1.5rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0.45rem;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: #e5e7eb;
+    }
+  }
+}
+
+.experience-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1rem 1fr;
+  gap: 0.9rem;
+  padding: 0.6rem 0 1.1rem;
+}
+
+.experience-item__marker {
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 50%;
+  background: #0ea5e9;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 0 2px #e5e7eb;
+  margin-top: 0.35rem;
+}
+
+.experience-item__body {
+  background: #ffffff;
+  border: 1px solid var(--global-border-color);
+  border-radius: 0.9rem;
+  padding: 0.85rem 1rem;
+  box-shadow: 0 10px 24px rgba(20, 20, 20, 0.06);
+}
+
+.experience-item__header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.experience-item__role {
+  margin: 0;
+  font-size: 1.05rem;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.experience-item__company {
+  color: #4b5563;
+  font-weight: 600;
+}
+
+.experience-item__meta {
+  margin-top: 0.45rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  color: #6b7280;
+  font-size: 0.9rem;
+
+  i {
+    margin-right: 0.35rem;
+  }
+}
+
+.experience-item__date-sep {
+  margin: 0 0.4rem;
+}
+
+.experience-item__present {
+  font-weight: 600;
+  color: #111827;
+}
+
+.experience-item__summary {
+  margin: 0.7rem 0 0;
+  color: #1f2933;
+}

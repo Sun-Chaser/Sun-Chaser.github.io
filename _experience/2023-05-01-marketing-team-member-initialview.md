@@ -4,6 +4,7 @@ collection: experience
 permalink: /experience/2023-05-01-marketing-team-member-initialview
 excerpt: "Supported marketing analysis, customer support, and feedback collection for InitialView."
 date: 2023-05-01
+end_date: 2023-08-01
 venue: "InitialView (Internship)"
 location: "Beijing, China (Remote)"
 ---

@@ -4,6 +4,7 @@ collection: experience
 permalink: /experience/2025-08-01-software-developer-gdg
 excerpt: "Shipped production features, integrated APIs, and built internal dashboards and lightweight CRM tools."
 date: 2025-08-01
+end_date: present
 venue: "Google Developers Group (Part-time)"
 location: "St Louis, Missouri, United States (On-site)"
 ---

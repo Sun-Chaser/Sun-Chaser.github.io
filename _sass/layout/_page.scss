@@ -100,6 +100,99 @@
     font-size: $type-size-6;
   }
 
+  .skill-bars {
+    display: grid;
+    gap: 0.9rem;
+    margin: 0.5rem 0 1.25rem;
+  }
+
+  .skill-bar {
+    background: #ffffff;
+    border: 1px solid var(--global-border-color);
+    border-radius: 0.6rem;
+    padding: 0.8rem 0.9rem 0.85rem;
+  }
+
+  .skill-bar__header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 0.45rem;
+  }
+
+  .skill-bar__value {
+    font-size: 0.9rem;
+    color: #4b5563;
+  }
+
+  .skill-bar__track {
+    height: 10px;
+    background: #eef1f4;
+    border-radius: 999px;
+    overflow: hidden;
+  }
+
+  .skill-bar__fill {
+    height: 100%;
+    background: linear-gradient(90deg, #0ea5e9, #22c55e);
+  }
+
+  .skill-bar__comment {
+    margin: 0.5rem 0 0;
+    font-size: 0.9rem;
+    color: #374151;
+  }
+
+  .education-entry {
+    background: #ffffff;
+    border: 1px solid var(--global-border-color);
+    border-radius: 0.8rem;
+    padding: 0.9rem 1.1rem;
+    box-shadow: 0 8px 20px rgba(20, 20, 20, 0.06);
+    margin: 0.75rem 0 1rem;
+  }
+
+  .education-entry h3 {
+    margin: 0 0 0.35rem;
+    font-size: 1.05rem;
+  }
+
+  .education-entry p {
+    margin: 0.2rem 0;
+    color: #2f3b45;
+  }
+
+  .education-entry p strong {
+    color: #111827;
+  }
+
+  .interest-list {
+    list-style: none;
+    margin: 0.75rem 0 1.5rem;
+    padding: 0;
+    display: grid;
+    gap: 0.65rem;
+  }
+
+  .interest-list__item {
+    position: relative;
+    padding: 0.7rem 0.9rem 0.7rem 2.1rem;
+    background: #ffffff;
+    border: 1px solid var(--global-border-color);
+    border-radius: 0.75rem;
+    box-shadow: 0 6px 16px rgba(20, 20, 20, 0.06);
+  }
+
+  .interest-list__item::before {
+    content: "✦";
+    position: absolute;
+    left: 0.8rem;
+    top: 0.7rem;
+    color: #0ea5e9;
+    font-size: 0.9rem;
+  }
+
   /* blockquote citations */
   blockquote + .small {
     margin-top: -1.5em;

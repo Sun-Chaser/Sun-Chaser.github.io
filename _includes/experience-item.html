@@ -1,0 +1,42 @@
+{% include base_path %}
+
+<article class="experience-item">
+  <div class="experience-item__marker"></div>
+  <div class="experience-item__body">
+    <div class="experience-item__header">
+      <h2 class="experience-item__role">
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
+      </h2>
+      {% if post.venue %}
+        <div class="experience-item__company">{{ post.venue }}</div>
+      {% endif %}
+    </div>
+
+    <div class="experience-item__meta">
+      {% if post.date %}
+        <span class="experience-item__date">
+          <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %Y" }}</time>
+          {% if post.end_date %}
+            <span class="experience-item__date-sep">–</span>
+            {% if post.end_date == "present" %}
+              <span class="experience-item__present">Present</span>
+            {% else %}
+              <time datetime="{{ post.end_date | date_to_xmlschema }}">{{ post.end_date | date: "%b %Y" }}</time>
+            {% endif %}
+          {% endif %}
+        </span>
+      {% endif %}
+      {% if post.location %}
+        <span class="experience-item__location">
+          <i class="fa fa-fw fa-map-marker-alt" aria-hidden="true"></i>
+          {{ post.location }}
+        </span>
+      {% endif %}
+    </div>
+
+    {% if post.excerpt %}
+      <p class="experience-item__summary">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+    {% endif %}
+  </div>
+</article>
