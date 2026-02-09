@@ -24,7 +24,7 @@ Education Experience
   <h3>Washington University in St. Louis</h3>
   <p><strong>B.S. in Computer Science</strong> — Minor in Statistics</p>
   <p>Aug 2023 – May 2026 (Expected Graduation) · St. Louis, MO</p>
-  <p>GPA: 3.99/4.0 (Major GPA 4.0/40.)</p>
+  <p>GPA: 3.99/4.0 (Major GPA 4.0/4.0)</p>
   <p>Honors: Dean's List</p>
 </div>
 
