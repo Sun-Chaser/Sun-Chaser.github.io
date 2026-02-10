@@ -22,5 +22,8 @@ Tech Stack:
 - GridSearchCV + Cross-Validation
 - Matplotlib (visualizations)
 
+Team Member:
+- **Jack Yang**, Andrew Tian, Tina Yu
+
 Links:
 - Source code: https://github.com/andr3wtn/andrewtinajack

@@ -22,5 +22,8 @@ Tech Stack:
 - Grafana and Prometheus
 - Google Cloud Service
 
+Team Member:
+- **Jack Yang**, Bobby Yu, Daniel Yan, Jack Fang, Weizhi Du
+
 Links:
 - Source code: https://github.com/cse4207-fall-2025/finalproject-teammodelflow

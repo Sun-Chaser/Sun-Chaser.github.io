@@ -21,5 +21,8 @@ Tech Stack:
 - Dataset storage
 - Active attacking
 
+Team Memebr:
+- **Jack Yang**, Edgar Palomino, Xinshi Feng
+
 Links:
 - Source code: https://github.com/Sun-Chaser/433-Final-Project

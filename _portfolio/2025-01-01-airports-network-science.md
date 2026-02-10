@@ -24,5 +24,8 @@ Tech Stack:
 - Random Forest Classifier
 - Quantitative and Qualitative Analysis
 
+Team Member:
+- **Jack Yang**, Xinyu Pan, Shiyuan Zhang
+
 Links:
 - Source code: https://github.com/cse4106-fl25/finalproject-honghao_shiyuan-z_pxinyu

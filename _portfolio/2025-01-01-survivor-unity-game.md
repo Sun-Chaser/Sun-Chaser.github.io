@@ -21,6 +21,9 @@ Tech Stack:
 - Control System
 - UI Design
 
+Team Member:
+- **Jack Yang**, Richard Zhao, Xinshi Feng
+
 Links:
 - Source code: https://github.com/Sun-Chaser/VG1A
 - Game link: <a href="https://jackyang.itch.io/finaldeliverable-survivor#:~:text=DRAFT-,Secret%20URL,-JackYang"> Click Here to Play

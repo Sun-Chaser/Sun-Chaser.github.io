@@ -22,5 +22,8 @@ Tech Stack:
 - Kalman Filter / Finite Gaussian Mixture
 - EM Algorithm
 
+Team Member:
+- **Jack Yang**, Brian Wei, Justin Choi, Tengis Kelley
+
 Links:
 - Source code: https://github.com/Sun-Chaser/SDS4210FinalProject

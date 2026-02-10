@@ -37,6 +37,15 @@ Education Experience
 </div>
 
 
+Recent Activities
+===
+<ul class="interest-list">
+  <li class="interest-list__item">2026 Jan — Add your most recent activity here.</li>
+  <li class="interest-list__item">2025 Dec — Add your next activity here.</li>
+  <li class="interest-list__item">2025 Nov — Add another activity here.</li>
+</ul>
+
+
 Programming Languages
 ===
 <div class="skill-bars">
@@ -147,4 +156,5 @@ Interesting Facts:
   <li class="interest-list__item">I only celebrate birthday on Lunar Calendar so it's hard to remember my birthday which differs every year.</li>
   <li class="interest-list__item">I can't cook before coming to U.S.A. But now I can cook really well.</li>
   <li class="interest-list__item">I like role-playing game and watched <em>Wichter III Concert</em>. Yayyyyyyy!!!</li>
+  <li class="interest-list__item">I enjoy hiking and playing frisbee.🥏</li>
 </ul>

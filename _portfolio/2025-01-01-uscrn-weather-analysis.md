@@ -16,6 +16,9 @@ Highlights:
 - Derived per-site trend slopes and climate features (amplitude, warmest/coldest day, variability).
 - Mapped spatial patterns, finding a small positive overall warming trend and larger variability inland.
 
+Team Member:
+- **Jack Yang**
+
 Tech Stack:
 - R programming language
 - Statistical Model (Interaction model + Regression model)
