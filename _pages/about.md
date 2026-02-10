@@ -39,11 +39,44 @@ Education Experience
 
 Recent Activities
 ===
-<ul class="interest-list">
-  <li class="interest-list__item">2026 Jan — Add your most recent activity here.</li>
-  <li class="interest-list__item">2025 Dec — Add your next activity here.</li>
-  <li class="interest-list__item">2025 Nov — Add another activity here.</li>
+<ul class="interest-list recent-activities" data-batch-size="5">
+  <li class="interest-list__item recent-activity">2026 Early Jan — Spring 2026 Begins!</li>
+  <li class="interest-list__item recent-activity">2025 Early Dec — Fall 2025 Ends! 6 course all A+ 🏆</li>
+  <li class="interest-list__item recent-activity">2025 Late Aug — Start the independent study mentored by Professor Robert Lunde.</li>
+  <li class="interest-list__item recent-activity">2025 Late Aug — Fall 2025 Starts!</li>
+  <li class="interest-list__item recent-activity">2025 Early Aug — Ending of the REU Summer Research!</li>
+  <li class="interest-list__item recent-activity">2025 Late May — CSE REU Summer research starts!</li>
 </ul>
+<button class="recent-activities__more" type="button">Show more</button>
+
+<script>
+  (function () {
+    var list = document.querySelector(".recent-activities");
+    var button = document.querySelector(".recent-activities__more");
+    if (!list || !button) return;
+
+    var items = list.querySelectorAll(".recent-activity");
+    var batchSize = parseInt(list.getAttribute("data-batch-size") || "5", 10);
+    var visibleCount = 0;
+
+    function updateVisibility() {
+      for (var i = 0; i < items.length; i++) {
+        items[i].style.display = i < visibleCount ? "" : "none";
+      }
+      if (visibleCount >= items.length) {
+        button.style.display = "none";
+      }
+    }
+
+    visibleCount = Math.min(batchSize, items.length);
+    updateVisibility();
+
+    button.addEventListener("click", function () {
+      visibleCount = Math.min(visibleCount + batchSize, items.length);
+      updateVisibility();
+    });
+  })();
+</script>
 
 
 Programming Languages

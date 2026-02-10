@@ -212,6 +212,20 @@
     font-size: 0.9rem;
   }
 
+  .recent-activities__more {
+    margin-top: 0.4rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    border: 1px solid var(--global-border-color);
+    background: var(--global-bg-color);
+    color: var(--global-text-color);
+    cursor: pointer;
+  }
+
+  .recent-activities__more:hover {
+    background: color-mix(in srgb, var(--global-text-color) 6%, var(--global-bg-color));
+  }
+
   /* blockquote citations */
   blockquote + .small {
     margin-top: -1.5em;
