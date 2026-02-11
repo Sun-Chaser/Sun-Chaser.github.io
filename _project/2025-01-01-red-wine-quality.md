@@ -1,8 +1,8 @@
 ---
 title: "Red Wine Quality Classification — ML Model Comparison"
-collection: portfolio
-permalink: /portfolio/2025-05-07-red-wine-quality-classification
-excerpt: "Classified UCI red wine quality scores (3–8) using ANN, KNN, and SVM with PCA + standardization, tuned via GridSearchCV + cross-validation. <br/><img src='/images/red_wine.jpg' alt='Red Wine Quality Classification' style='max-width: 100%; height: auto; width: 480px;' >"
+collection: project
+permalink: /projects/2025-05-07-red-wine-quality-classification
+excerpt: "Classified UCI red wine quality scores (3–8) using ANN, KNN, and SVM with PCA + standardization, tuned via GridSearchCV + cross-validation. <br/><img src='/images/experience/red_wine.jpg' alt='Red Wine Quality Classification' style='max-width: 100%; height: auto; width: 480px;' >"
 date: "2025 May"
 created_on: "Spring 2025 ESE 417 Final Project"
 venue: "Washington University in St. Louis"

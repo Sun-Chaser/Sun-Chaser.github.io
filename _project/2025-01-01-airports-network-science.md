@@ -1,8 +1,8 @@
 ---
 title: "Size Prediction & Role Analysis of U.S. Airports"
-collection: portfolio
-permalink: /portfolio/2025-01-01-airports-network-science
-excerpt: "Network science project analyzing U.S. aviation connectivity, roles, and resilience using community detection and role mining. <br/><img src='/images/us_airport_network.png' alt=\"US network overview\" style=\"max-width: 100%; height: auto; width: 480px;\" >"
+collection: project
+permalink: /projects/2025-01-01-airports-network-science
+excerpt: "Network science project analyzing U.S. aviation connectivity, roles, and resilience using community detection and role mining. <br/><img src='/images/experience/us_airport_network.png' alt=\"US network overview\" style=\"max-width: 100%; height: auto; width: 480px;\" >"
 date: 2025 December
 created_on: "Fall 2025 CSE 4106 Final Project"
 venue: "Washington University in St. Louis"

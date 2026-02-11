@@ -1,8 +1,8 @@
 ---
 title: "ModelFlow — Cloud-Native ML Training Platform"
-collection: portfolio
-permalink: /portfolio/2025-01-01-modelflow-cloud-native-ml-platform
-excerpt: "Cloud-native platform for ML training/inference on GKE using Ray + KubeRay with observability and secure access. <br/><img src='/images/ModelFlow.png' alt=\"Model Flow Demo\" style=\"max-width: 100%; height: auto; width: 480px;\" >"
+collection: project
+permalink: /projects/2025-01-01-modelflow-cloud-native-ml-platform
+excerpt: "Cloud-native platform for ML training/inference on GKE using Ray + KubeRay with observability and secure access. <br/><img src='/images/experience/ModelFlow.png' alt=\"Model Flow Demo\" style=\"max-width: 100%; height: auto; width: 480px;\" >"
 date: "2025 December"
 created_on: "Fall 2025 CSE 4207 Final Project"
 venue: "Washington University in St. Louis"

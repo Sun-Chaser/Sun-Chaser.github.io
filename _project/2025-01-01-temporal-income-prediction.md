@@ -1,8 +1,8 @@
 ---
 title: "Temporal Income Prediction with Incomplete Observations"
-collection: portfolio
-permalink: /portfolio/2025-01-01-temporal-income-prediction
-excerpt: "Forecasted firm profitability from SEC filings using Kalman-EM imputation and Bayesian ARMA modeling. <br/><img src='/images/project_4210.png' alt=\"Temporal Analysis\" style=\"max-width: 100%; height: auto; width: 480px;\" >"
+collection: project
+permalink: /projects/2025-01-01-temporal-income-prediction
+excerpt: "Forecasted firm profitability from SEC filings using Kalman-EM imputation and Bayesian ARMA modeling. <br/><img src='/images/experience/project_4210.png' alt=\"Temporal Analysis\" style=\"max-width: 100%; height: auto; width: 480px;\" >"
 date: "2025 December"
 created_on: "Fall 2025 SDS 4210 Final Project"
 venue: "Washington University in St. Louis"

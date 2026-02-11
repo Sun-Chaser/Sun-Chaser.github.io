@@ -11,14 +11,14 @@ redirect_from:
 
 Hi — I’m **Honghao Yang (杨洪浩)**, and I also go by **Jack**. I’m a **junior at Washington University in St. Louis**, majoring in **Computer Science** with a minor in **Statistics**.
 
-I’m interested in **high-performance computing (HPC)** and **GPU programming**, especially **performance debugging**:
+I’m interested in **high-performance computing (HPC)** and **GPU programming** and have previouse research experience on those fields, especially **performance debugging**:
 - **Profiling bottlenecks**
 - **Fixing correctness issues**
 - **Making code faster** without turning it into a mess
 
-On this site, I share **projects**, **notes**, and **experiments** as I learn more about **parallel systems** and **performance engineering**. Also, I'd love to keep it as an archive of my **past life** and **experience**. Feel free to explore differnt sections!
+On this site, I share **projects**, **notes**, and **experiments** as I learn more about **parallel systems** and **performance engineering**. Also, I'd love to keep it as an archive of my past life and experience. Feel free to explore different sections!
 
-Education Experience
+Education
 ===
 <div class="education-entry">
   <h3>Washington University in St. Louis</h3>
@@ -39,49 +39,78 @@ Education Experience
 
 Recent Activities
 ===
-<ul class="interest-list recent-activities" data-batch-size="5">
-  <li class="interest-list__item recent-activity">2026 Early Jan — Spring 2026 Begins!</li>
-  <li class="interest-list__item recent-activity">2025 Early Dec — Fall 2025 Ends! 6 course all A+ 🏆</li>
-  <li class="interest-list__item recent-activity">2025 Late Aug — Start the independent study mentored by Professor Robert Lunde.</li>
-  <li class="interest-list__item recent-activity">2025 Late Aug — Fall 2025 Starts!</li>
-  <li class="interest-list__item recent-activity">2025 Early Aug — Ending of the REU Summer Research!</li>
-  <li class="interest-list__item recent-activity">2025 Late May — CSE REU Summer research starts!</li>
+<ul class="recent-activities-list" data-expandable-list data-batch-size="5" data-item-selector=".recent-activity">
+  <li class="recent-activity">2026 Feb. - Actively looking for programs and summer interns.</li>
+  <li class="recent-activity">2026 Jan. 12 — Spring 2026 Semester Begins!</li>
+  <li class="recent-activity">2025 Dec. 10 — Fall 2025 Semester Ends! 6 course all A+ 🏆</li>
+  <li class="recent-activity">2025 Aug. 20 — Start the <a href="/experience/2025-08-01-independent-researcher-washu">independent study</a> mentored by Professor Robert Lunde.</li>
+  <li class="recent-activity">2025 Aug. 1 — Ending of the <a href="/experience/2025-01-01-undergraduate-research-assistant-sbs">REU Summer Research</a>!</li>
+  <li class="recent-activity">2025 Late May — CSE REU Summer Research started!</li>
 </ul>
-<button class="recent-activities__more" type="button">Show more</button>
+<div class="recent-activities__controls">
+  <button class="recent-activities__more expandable__more" type="button">Expand</button>
+  <button class="recent-activities__collapse expandable__collapse" type="button">Collapse</button>
+</div>
 
 <script>
   (function () {
-    var list = document.querySelector(".recent-activities");
-    var button = document.querySelector(".recent-activities__more");
-    if (!list || !button) return;
+    function initExpandableLists() {
+    var lists = document.querySelectorAll("[data-expandable-list]");
 
-    var items = list.querySelectorAll(".recent-activity");
-    var batchSize = parseInt(list.getAttribute("data-batch-size") || "5", 10);
-    var visibleCount = 0;
+    for (var j = 0; j < lists.length; j++) {
+      (function (list) {
+        var controls = list.nextElementSibling;
+        while (controls && !controls.classList.contains("recent-activities__controls")) {
+          controls = controls.nextElementSibling;
+        }
+        if (!controls) return;
 
-    function updateVisibility() {
-      for (var i = 0; i < items.length; i++) {
-        items[i].style.display = i < visibleCount ? "" : "none";
-      }
-      if (visibleCount >= items.length) {
-        button.style.display = "none";
-      }
+        var moreButton = controls.querySelector(".expandable__more");
+        var collapseButton = controls.querySelector(".expandable__collapse");
+        if (!moreButton || !collapseButton) return;
+
+        var itemSelector = list.getAttribute("data-item-selector") || "li";
+        var items = list.querySelectorAll(itemSelector);
+        var batchSize = parseInt(list.getAttribute("data-batch-size") || "5", 10);
+        var visibleCount = 0;
+
+        function updateVisibility() {
+          for (var i = 0; i < items.length; i++) {
+            items[i].style.display = i < visibleCount ? "" : "none";
+          }
+          moreButton.style.display = visibleCount >= items.length ? "none" : "";
+          collapseButton.style.display = visibleCount > batchSize ? "" : "none";
+          controls.style.display = items.length > batchSize ? "" : "none";
+        }
+
+        visibleCount = Math.min(batchSize, items.length);
+        updateVisibility();
+
+        moreButton.addEventListener("click", function () {
+          visibleCount = Math.min(visibleCount + batchSize, items.length);
+          updateVisibility();
+        });
+
+        collapseButton.addEventListener("click", function () {
+          visibleCount = Math.min(batchSize, items.length);
+          updateVisibility();
+        });
+      })(lists[j]);
+    }
     }
 
-    visibleCount = Math.min(batchSize, items.length);
-    updateVisibility();
-
-    button.addEventListener("click", function () {
-      visibleCount = Math.min(visibleCount + batchSize, items.length);
-      updateVisibility();
-    });
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initExpandableLists);
+    } else {
+      initExpandableLists();
+    }
   })();
 </script>
 
 
 Programming Languages
 ===
-<div class="skill-bars">
+<div class="skill-bars" data-expandable-list data-batch-size="5" data-item-selector=".skill-bar">
   <div class="skill-bar">
     <div class="skill-bar__header">
       <span class="skill-bar__name">C++</span>
@@ -102,6 +131,17 @@ Programming Languages
       <div class="skill-bar__fill" style="width: 90%;"></div>
     </div>
     <p class="skill-bar__comment"> printf("I am %f.1 confidence with this in class", 90.001f); </p>
+  </div>
+
+  <div class="skill-bar">
+    <div class="skill-bar__header">
+      <span class="skill-bar__name">Git</span>
+      <span class="skill-bar__value">90%</span>
+    </div>
+    <div class="skill-bar__track">
+      <div class="skill-bar__fill" style="width: 90%;"></div>
+    </div>
+    <p class="skill-bar__comment">git commit -a -m "I solved a lot of git conflicts on cmd and IDE."</p>
   </div>
 
   <div class="skill-bar">
@@ -182,12 +222,21 @@ Programming Languages
   </div>
 
 </div>
+<div class="recent-activities__controls">
+  <button class="recent-activities__more expandable__more" type="button">Expand</button>
+  <button class="recent-activities__collapse expandable__collapse" type="button">Collapse</button>
+</div>
 
 Interesting Facts:
 ===
-<ul class="interest-list">
+<ul class="interest-list" data-expandable-list data-batch-size="5" data-item-selector=".interest-list__item">
   <li class="interest-list__item">I only celebrate birthday on Lunar Calendar so it's hard to remember my birthday which differs every year.</li>
-  <li class="interest-list__item">I can't cook before coming to U.S.A. But now I can cook really well.</li>
+  <li class="interest-list__item">I couldn't cook before coming to U.S.A. But now I can cook really well.</li>
   <li class="interest-list__item">I like role-playing game and watched <em>Wichter III Concert</em>. Yayyyyyyy!!!</li>
   <li class="interest-list__item">I enjoy hiking and playing frisbee.🥏</li>
+
 </ul>
+<div class="recent-activities__controls">
+  <button class="recent-activities__more expandable__more" type="button">Expand</button>
+  <button class="recent-activities__collapse expandable__collapse" type="button">Collapse</button>
+</div>

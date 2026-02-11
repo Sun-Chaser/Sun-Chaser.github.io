@@ -1,8 +1,8 @@
 ---
 title: "USCRN Weather Data Analysis"
-collection: portfolio
-permalink: /portfolio/2025-01-01-uscrn-weather-analysis
-excerpt: "Analyzed U.S. climate reference data, modeled seasonality, and mapped spatial trends across 132 stations. <br/><img src='/images/project_439.png' alt=\"Weather Analysis\" style=\"max-width: 100%; height: auto; width: 480px;\" >"
+collection: project
+permalink: /projects/2025-01-01-uscrn-weather-analysis
+excerpt: "Analyzed U.S. climate reference data, modeled seasonality, and mapped spatial trends across 132 stations. <br/><img src='/images/experience/project_439.png' alt=\"Weather Analysis\" style=\"max-width: 100%; height: auto; width: 480px;\" >"
 date: "May 2025"
 created_on: "Spring 2025 CSE 433 Final Project"
 venue: "Washington University in St. Louis"

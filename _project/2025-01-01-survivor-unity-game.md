@@ -1,8 +1,8 @@
 ---
 title: "Survivor — Unity HTML5 Web Game"
-collection: portfolio
-permalink: /portfolio/2025-01-01-survivor-unity-game
-excerpt: "Fast-paced 2‑minute survival action game with multiple classes, progression, and boss fight; shipped on itch.io. <br/><img src='/images/survivor.png' alt=\"Game Survivor\" style=\"max-width: 100%; height: auto; width: 480px;\" >"
+collection: project
+permalink: /projects/2025-01-01-survivor-unity-game
+excerpt: "Fast-paced 2‑minute survival action game with multiple classes, progression, and boss fight; shipped on itch.io. <br/><img src='/images/experience/survivor.png' alt=\"Game Survivor\" style=\"max-width: 100%; height: auto; width: 480px;\" >"
 date: "2025 December"
 created_on: "Fall 2025 CSE 4500 Semester Project"
 venue: "Washington University in St. Louis"

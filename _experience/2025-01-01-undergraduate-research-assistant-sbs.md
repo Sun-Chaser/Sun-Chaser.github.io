@@ -20,7 +20,7 @@ Highlights:
 
 <h3>2025 McKelvey Summer Research Programs Poster Palooza</h3>
 <iframe src="/files/Poster_Final.pdf" width="100%" height="600px" style="border: none;"></iframe>
-<img src="/images/reu_poster_show.png" alt="End of Summer Poster">
+<img src="/images/experience/reu_poster_show.png" alt="End of Summer Poster">
 
 <h3>2025 Summer REU Fianl Showcase Presentation</h3>
 <iframe src="/files/reu_presentation.pdf" width="100%" height="600px" style="border: none;"></iframe>
