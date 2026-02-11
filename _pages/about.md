@@ -132,7 +132,7 @@ Programming Languages
     <div class="skill-bar__track">
       <div class="skill-bar__fill" style="width: 90%;"></div>
     </div>
-    <p class="skill-bar__comment"> printf("I am %f.1 confidence with this in class", 90.001f); </p>
+    <p class="skill-bar__comment"> printf("I am %.1f%% confidence with this in class", 90.001f); </p>
   </div>
 
   <div class="skill-bar">
@@ -176,7 +176,7 @@ Programming Languages
     <div class="skill-bar__track">
       <div class="skill-bar__fill" style="width: 80%;"></div>
     </div>
-    <p class="skill-bar__comment">printKernel <<<1, 1>>> ("I'm learning right now.") </p>
+    <p class="skill-bar__comment">printKernel<<<1, 1>>>("I'm learning right now.");</p>
   </div>
 
   <div class="skill-bar">
@@ -222,8 +222,8 @@ Programming Languages
     </div>
     <p class="skill-bar__comment">puts "Family programming languages from 425 course: Love SML"</p>
   </div>
-
 </div>
+
 <div class="recent-activities__controls">
   <button class="recent-activities__more expandable__more" type="button">Expand</button>
   <button class="recent-activities__collapse expandable__collapse" type="button">Collapse</button>
