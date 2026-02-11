@@ -18,7 +18,7 @@ I’m interested in **high-performance computing (HPC)** and **GPU programming**
 
 On this site, I share **projects**, **notes**, and **experiments** as I learn more about **parallel systems** and **performance engineering**. Also, I'd love to keep it as an archive of my past life and experience. Feel free to explore different sections!
 
-<h3>TL;DR:</h3> Here is a current <a href="/files/AcademicCv.pdf">resume/CV</a> (Last Updated: 2026-02-11) of me. But trust me, this website will give you more than that :).
+<h3>TL;DR:</h3> Here is a current <a href="/files/AcademicCV.pdf">resume/CV</a> (Last Updated: 2026-02-11) of me. But trust me, this website will give you more than that :).
 
 Education
 ===
