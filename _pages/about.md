@@ -236,6 +236,8 @@ Interesting Facts:
   <li class="interest-list__item">I couldn't cook before coming to U.S.A. But now I can cook really well.</li>
   <li class="interest-list__item">I like role-playing game and watched <em>Wichter III Concert</em>. Yayyyyyyy!!!</li>
   <li class="interest-list__item">I enjoy hiking and playing frisbee.🥏</li>
+  <li class="interest-list__item">Sun-Chaser is my GitHub name while my Steam name is Star-Chaser. Why they are not consistent? Sun-Chaser is taken on Steam!!!😵</li>
+
 
 </ul>
 <div class="recent-activities__controls">
