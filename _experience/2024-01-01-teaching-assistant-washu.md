@@ -5,7 +5,7 @@ permalink: /experience/2024-01-01-teaching-assistant-washu
 excerpt: "Teaching assistant across multiple CSE courses; supported students with labs, assignments, and exam prep."
 date: 2024-01-01
 end_date: present
-venue: "Washington University in St. Louis"
+venue: "Washington University McKelvey School of Engineering"
 location: "St Louis, Missouri, United States"
 ---
 
@@ -16,3 +16,6 @@ Highlights:
 - TA for CSE 3601 Introduction to Software System (2 semesters).
 - TA for CSE 4500 Video Game Programming I (1 semester).
 - TA for CSE 2301 Introduction to Parallel and Concurrent Programming (1 semester).
+- TA for CSE 4207 Cloud Computing With Big Data Applications (1 semester).
+- TA for CSE 3407 Analysis of Algorithms (1 semester).
+- TA for CSE 4106 Data Science for Complex Networks (1 semester).

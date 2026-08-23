@@ -41,6 +41,10 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
+          {% assign publication_category = site.publication_category[post.category] %}
+          {% if publication_category %}
+            <p class="publication-category"><strong>Category:</strong> {{ publication_category.title }}</p>
+          {% endif %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'project' %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Created on:</strong>

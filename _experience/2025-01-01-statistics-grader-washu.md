@@ -4,7 +4,7 @@ collection: experience
 permalink: /experience/2025-01-01-statistics-grader-washu
 excerpt: "Grader for SDS statistics courses; provided detailed feedback and clear explanations for students."
 date: 2025-01-01
-end_date: present
+end_date: 2026-05-01
 venue: "Washington University in St. Louis"
 location: "St Louis, Missouri, United States"
 ---

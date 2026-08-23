@@ -2,10 +2,10 @@
 title: "Academic Tutor"
 collection: experience
 permalink: /experience/2025-01-01-academic-tutor-mckelvey
-excerpt: "Provided 1:1 tutoring for core CSE courses, with a focus on problem-solving and study skills."
+excerpt: "Provide 1:1 tutoring for core CSE courses, with a focus on problem-solving and study skills."
 date: 2025-01-01
-end_date: present
-venue: "Washington University McKelvey School of Engineering (Part-time)"
+end_date: 2026-05-01
+venue: "Washington University McKelvey School of Engineering"
 location: "St Louis, Missouri, United States (On-site)"
 ---
 

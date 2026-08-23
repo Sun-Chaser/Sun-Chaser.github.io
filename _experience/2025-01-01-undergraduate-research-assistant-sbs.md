@@ -15,7 +15,7 @@ Highlights:
 - Benchmarked pipeline stages using Google Benchmark, Nanobenchmark, and custom C++ timing tools.
 - Analyzed latency distributions to characterize variability and tail behavior.
 - Identified and resolved performance bottlenecks in parallel/concurrent code paths.
-- Rebuilding the localization stage in CUDA for the new GPU architecture of ADAPT (current project).
+- Design CUDA algorithm code for computation pipeline and test on embedded device (NVIDIA Jetsen).
 
 
 <h3>2025 McKelvey Summer Research Programs Poster Palooza</h3>

@@ -14,5 +14,8 @@ This section will be a collection of my work experience, including internships, 
 <div class="experience-list">
   {% for post in site.experience reversed %}
     {% include experience-item.html %}
+    {% unless forloop.last %}
+      <hr class="experience-item-divider" aria-hidden="true" />
+    {% endunless %}
   {% endfor %}
 </div>

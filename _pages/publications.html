@@ -29,6 +29,8 @@ author_profile: true
       {% unless title_shown %}
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
+      {% else %}
+        <hr class="publication-item-divider" aria-hidden="true" />
       {% endunless %}
       {% include archive-single.html %}
     {% endfor %}
@@ -36,8 +38,10 @@ author_profile: true
 {% else %}
   {% for post in site.publications reversed %}
     {% include archive-single.html %}
+    {% unless forloop.last %}
+      <hr class="publication-item-divider" aria-hidden="true" />
+    {% endunless %}
   {% endfor %}
 {% endif %}
-
 
 

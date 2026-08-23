@@ -11,7 +11,9 @@ location: "St Louis, Missouri, United States (On-site)"
 
 Highlights:
 
-- Studied advanced topics in U-statistics and bootstrap resampling.
-- Explored network generative models (k-NN graphs, Erdos-Renyi, random geometric graphs) with a focus on structural properties.
-- Analyzed asymptotic behavior via triangle counts in sparse regimes.
-- Defined a project on fixed-k k-NN graphs, focusing on limiting behavior and graph statistics (current project).
+- Study advanced topics in U-statistics and bootstrap resampling.
+- Explore network generative models (k-NN graphs, Erdos-Renyi, random geometric graphs) with a focus on structural properties.
+- Analyze asymptotic behavior via triangle counts in sparse regimes.
+- Define a project on fixed-k k-NN graphs, focusing on limiting behavior and graph statistics.
+- Prove Central Limit Theorem of subgraph counts of KNN graph with fixed K.
+- Generalize results from KNN model to sparse Graphon model.

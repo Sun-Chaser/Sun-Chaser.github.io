@@ -24,6 +24,12 @@
   padding: 0.6rem 0 1.1rem;
 }
 
+.experience-item-divider {
+  margin: 0.2rem 0 0.8rem 1.9rem;
+  border: 0;
+  border-top: 1px solid var(--global-border-color);
+}
+
 .experience-item__marker {
   width: 0.9rem;
   height: 0.9rem;
